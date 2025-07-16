@@ -7,6 +7,9 @@ Welcome to tic-tac-toe!
 <li>The game determines the winner, handles draws, and allows for resets.</li>
 </ul>
 
+<h1>Demo</h1>
+https://github.com/user-attachments/assets/12bea979-2d1c-4c43-a814-7af9391e0f91
+
 <h1>Logic of the game</h1>
 - The game board is represented as a 3x3 array of cells, each with a value of either "X", "O", or an empty string.
 
@@ -39,8 +42,6 @@ Welcome to tic-tac-toe!
 - The game allows for resets, allowing players to start a new game without refreshing the page.
 - This is the simpliest algorithm for 3x3 tic tac toe because there are not many squares on the board to check for a win. For a larger board, the number of winning combinations increases, making the algorithm more complex.
 - If the board is larger (may be 16x16...), we can check the winner by checking 3 directions when user clicks on a square. We can check for a win by checking 3 directions: horizontal, vertical, and diagonal. If user gets winning consecutive square, we can declare that player as the winner.
-
-<h1>Demo</h1>
 
 <h1>Tech Stack</h1>
 This project uses the following technologies:
