@@ -8,7 +8,9 @@ Welcome to tic-tac-toe!
 </ul>
 
 <h1>Demo</h1>
-https://github.com/user-attachments/assets/12bea979-2d1c-4c43-a814-7af9391e0f91
+<video src="front-end/Screen Recording 2025-07-16 at 5.46.51 PM.mp4" controls width="600">
+   There is an error here.
+</video>
 
 <h1>Logic of the game</h1>
 - The game board is represented as a 3x3 array of cells, each with a value of either "X", "O", or an empty string.

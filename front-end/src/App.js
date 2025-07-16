@@ -57,6 +57,9 @@ function App() {
   return (
     <div className="container">
       <h1>Tic Tac Toe</h1>
+      <p>
+        This is a simple and fun two-player game built with React. Take turns placing Xs and Os on the grid—first to align three in a row wins! The game automatically detects winners and draws, and you can restart anytime to play again. Clean design, smooth interaction, and minimal logic make this a great example of building interactive apps with React.
+      </p>
       <Board board={board} onClick={handleClick} />
       <h2>{status}</h2>
       <button onClick={resetGame}>Restart</button>
